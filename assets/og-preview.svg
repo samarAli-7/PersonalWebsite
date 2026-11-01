@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f1e8"/>
+  <path d="M0 520C220 440 380 590 620 500s360-30 580-110V630H0Z" fill="#b9e8d0"/>
+  <path d="M0 0h1200v110c-220 48-410-30-620 22S220 112 0 170Z" fill="#ffd95a"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="none" stroke="#171717" stroke-width="5"/>
+  <text x="105" y="185" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="7">SAMAR ALI</text>
+  <text x="105" y="320" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="900">INTELLIGENT</text>
+  <text x="105" y="415" fill="#ef5b83" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="900">SYSTEMS.</text>
+  <text x="108" y="492" fill="#171717" font-family="Arial, Helvetica, sans-serif" font-size="24">AI · ROBOTICS · MULTIMODAL SYSTEMS</text>
+  <circle cx="1010" cy="170" r="44" fill="#ef5b83" stroke="#171717" stroke-width="5"/>
+  <path d="M990 170h40M1010 150v40" stroke="#171717" stroke-width="7" stroke-linecap="round"/>
+</svg>

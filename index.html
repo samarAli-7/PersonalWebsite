@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samar Ali — Creative Developer</title>
+  <meta name="description" content="Samar Ali is a creative developer in Delhi building thoughtful interfaces, computer-vision experiments and small games that make the web feel a little more human." />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Samar Ali — Intelligent Systems, AI &amp; Robotics" />
+  <meta property="og:description" content="Explore Samar Ali's work across AI, robotics, speech processing, and multimodal systems." />
+  <meta property="og:image" content="assets/og-preview.svg" />
+  <meta property="og:image:alt" content="Samar Ali — Intelligent Systems, AI and Robotics" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Samar Ali — Intelligent Systems, AI &amp; Robotics" />
+  <meta name="twitter:description" content="Explore Samar Ali's work across AI, robotics, speech processing, and multimodal systems." />
+  <meta name="twitter:image" content="assets/og-preview.svg" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Caveat:wght@500;600;700&family=Archivo:wght@400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script>document.documentElement.classList.add('js');</script>
+  <noscript>
+    <style>.reveal { opacity: 1 !important; transform: none !important; }</style>
+  </noscript>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.3 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-person" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.6"/><path d="M4.8 21c.5-4 3.5-6 7.2-6s6.7 2 7.2 6"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="1.2"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.2"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.2"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.2"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.5 4.2 13a4.9 4.9 0 0 1 7.8-5.9 4.9 4.9 0 0 1 7.8 5.9L12 20.5Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2.8" y="5" width="18.4" height="14" rx="2.4"/><path d="m3 6.6 9 6.4 9-6.4"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="11.5" height="11.5" rx="2"/><path d="M16 8.5V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19.5 7"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 20V5M5.5 11.5 12 5l6.5 6.5"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 2.7a9.3 9.3 0 0 0-2.94 18.12c.46.08.63-.2.63-.44v-1.7c-2.57.56-3.11-1.09-3.11-1.09-.42-1.07-1.02-1.36-1.02-1.36-.84-.57.06-.56.06-.56.93.07 1.42.96 1.42.96.83 1.42 2.18 1.01 2.71.77.08-.6.33-1.01.59-1.25-2.05-.23-4.2-1.03-4.2-4.58 0-1.01.36-1.84.96-2.49-.1-.24-.42-1.18.09-2.45 0 0 .78-.25 2.56.95a8.86 8.86 0 0 1 4.66 0c1.78-1.2 2.56-.95 2.56-.95.51 1.27.19 2.21.09 2.45.6.65.96 1.48.96 2.49 0 3.56-2.16 4.35-4.21 4.58.33.29.63.85.63 1.72v2.55c0 .25.17.53.64.44A9.3 9.3 0 0 0 12 2.7Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M4.6 3.5a2.1 2.1 0 1 0 0 4.2 2.1 2.1 0 0 0 0-4.2ZM3 9h3.2v10.5H3V9Zm5.2 0h3.1v1.43h.04c.43-.82 1.48-1.68 3.05-1.68 3.26 0 3.86 2.15 3.86 4.95v5.8h-3.2v-5.14c0-1.23-.02-2.81-1.71-2.81-1.71 0-1.97 1.34-1.97 2.72v5.23H8.2V9Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.6" cy="6.5" r="1" fill="currentColor" stroke="none"/></symbol>
+  </svg>
+
+  <div class="page">
+    <!-- ============ TOP BAR ============ -->
+    <header class="topbar" id="topbar">
+      <div class="topbar__inner">
+        <nav class="mainnav" aria-label="Sections">
+          <a class="navpill is-active" href="#home"><span>HOME</span></a>
+          <a class="navpill" href="#about"><span>ABOUT</span></a>
+          <a class="navpill" href="#work"><span>WORK</span></a>
+        </nav>
+
+        <div class="topbar__tools">
+          <a class="pillbtn" href="assets/Samar-Ali-Resume.pdf" download>RESUME</a>
+          <a class="pillbtn" href="#contact"><span>CONTACT</span></a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="home">
+        <p class="hand hero__hello">my name is</p>
+
+        <div class="hero__nameline" data-float="0.7">
+          <div class="hero__plate">
+            <svg class="scribble" viewBox="0 0 600 230" fill="none" aria-hidden="true" preserveAspectRatio="none">
+              <path d="M22 30c118-14 236-4 356-12 62-4 118 2 190-2" />
+              <path d="M568 16c22 4 20 26 16 46-6 32 8 62 4 92-3 26-4 42-6 54" />
+              <path d="M582 208c-56 10-116 2-176 8-108 10-216 6-324 2" />
+              <path d="M82 218c-30-2-66 4-64-14 2-22-6-44-2-66 5-30-4-58-2-84" />
+              <path d="M16 54c8-14 30-14 46-16" />
+            </svg>
+            <h1 class="pixel hero__name">SAMAR</h1>
+          </div>
+
+          <span class="tag tag--cream hand tag--tilt-r">multimodal systems</span>
+        </div>
+
+        <div class="hero__under" data-float="0.85">
+          <span class="tag tag--mint hand tag--tilt-l tag--drop">robotics</span>
+          <span class="tag tag--yellow hand tag--tilt-l">agentic AI</span>
+          <p class="mono hero__open"><span class="dot" aria-hidden="true"></span> OPEN TO NEW WORK AND GOOD PROBLEMS</p>
+          <span class="tag tag--mint hand tag--tilt-r">Delhi, IN</span>
+        </div>
+
+        <div class="hero__statement" data-float="1">
+          <p class="statement">
+            engineering student passionate about building intelligent systems at the intersection of
+            software, hardware, and automation.
+          </p>
+        </div>
+
+        <svg class="swash" viewBox="0 0 1200 90" fill="none" aria-hidden="true" preserveAspectRatio="none">
+          <path d="M4 84C210 26 420 8 600 14c180 6 380 30 596 62" />
+        </svg>
+
+        <nav class="socials" aria-label="Social links">
+          <a class="socials__link socials__link--github" href="https://github.com/samarAli-7" target="_blank" rel="noopener noreferrer">
+            <svg class="socials__icon" aria-hidden="true"><use href="#i-github"></use></svg>
+            <span>GitHub</span>
+          </a>
+          <a class="socials__link socials__link--linkedin" href="https://www.linkedin.com/in/samar-ali-022540399" target="_blank" rel="noopener noreferrer">
+            <svg class="socials__icon" aria-hidden="true"><use href="#i-linkedin"></use></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a class="socials__link socials__link--instagram" href="https://www.instagram.com/samar.ali_7" target="_blank" rel="noopener noreferrer">
+            <svg class="socials__icon" aria-hidden="true"><use href="#i-instagram"></use></svg>
+            <span>Instagram</span>
+          </a>
+          <a class="socials__link socials__link--uas" href="https://uasdtu.com/" target="_blank" rel="noopener noreferrer">
+            <img class="socials__logo" src="assets/uas-dtu-logo.png" alt="" />
+            <span>UAS-DTU</span>
+          </a>
+        </nav>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="about" id="about">
+        <span class="hand about__label reveal">about me!</span>
+
+        <div class="about__row" data-float="1">
+          <figure class="polaroid polaroid--hero reveal">
+            <span class="tape tape--tl" aria-hidden="true"></span>
+            <span class="tape tape--tr" aria-hidden="true"></span>
+            <div class="polaroid__photo polaroid__photo--portrait">
+              <img class="polaroid__img" src="assets/samar-portrait.jpg" width="1200" height="1158" loading="lazy" decoding="async" alt="Samar Ali sitting in a field beside a four-wheeled robot he built." />
+            </div>
+            <figcaption class="hand">2026</figcaption>
+          </figure>
+
+          <p class="about__copy hand reveal">
+          I’m a creative developer who gets a little too excited about making complicated things
+          feel simple. I care about the small details, the edge cases everyone forgets, and
+          shipping work that genuinely makes someone’s day easier.
+          </p>
+        </div>
+
+        <div class="skills reveal" data-float="0.8">
+          <h3 class="hand skills__title">the toolkit</h3>
+
+          <div class="skills__scroll">
+            <table class="skilltable">
+              <caption class="visually-hidden">Skills by field, with experience</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Field</th>
+                  <th scope="col">Skill</th>
+                  <th scope="col">Experience</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><th scope="rowgroup" rowspan="4">Languages</th><td>Python</td><td class="skilltable__exp">8 yrs</td></tr>
+                <tr><td>C</td><td class="skilltable__exp">3 yrs</td></tr>
+                <tr><td>JavaScript</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>TypeScript</td><td class="skilltable__exp">1 yr</td></tr>
+
+                <tr><th scope="rowgroup" rowspan="10">AI / ML</th><td>PyTorch</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>TensorFlow</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>MediaPipe</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>RAG / vector stores</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>Speech models (Whisper, SepFormer)</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>Generative AI</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>LLMs &amp; prompt engineering</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>Multimodal: cameras (RGB, depth, event)</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>Multimodal: audio</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>Multimodal: LiDAR &amp; radar</td><td class="skilltable__exp">1 yr</td></tr>
+
+                <tr><th scope="rowgroup" rowspan="8">Hardware</th><td>ESP32 / Arduino</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>Raspberry Pi 5</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>Raspberry Pi Pico &amp; MicroPython</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>NVIDIA Jetson Orin / Nano</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>IMU &amp; MEMS devices</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>Flight controllers (Pixhawk)</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>GPS modules</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>Microphone arrays &amp; MVDR</td><td class="skilltable__exp">1 yr</td></tr>
+
+                <tr><th scope="rowgroup" rowspan="3">Web</th><td>HTML / CSS</td><td class="skilltable__exp">9 yrs</td></tr>
+                <tr><td>React</td><td class="skilltable__exp">3 mo</td></tr>
+                <tr><td>FastAPI / Streamlit</td><td class="skilltable__exp">1 yr</td></tr>
+
+                <tr><th scope="rowgroup" rowspan="5">Tools</th><td>Git &amp; GitHub</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>Docker</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>Podman</td><td class="skilltable__exp">4 mo</td></tr>
+                <tr><td>Linux</td><td class="skilltable__exp">1 yr</td></tr>
+                <tr><td>Audio / speech signal processing</td><td class="skilltable__exp">1 yr</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ WORK ============ -->
+      <section class="work" id="work">
+        <article class="proj proj--dark reveal" data-float="1.1">
+          <span class="proj__tab proj__tab--blue">✦ SHOWCASE 01</span>
+          <div class="proj__body">
+            <div class="proj__copy">
+              <p class="mono proj__meta"><span class="dot" aria-hidden="true"></span> AUDIO ML · PYTORCH · SOLO</p>
+              <h2 class="proj__title">Point at a Voice</h2>
+              <p class="proj__tagline">
+                Give it an azimuth and it hands back the person standing there, out of a room of
+                eleven. Along the way: how far direction alone actually gets you, and the fallback
+                that covers the one case geometry can’t solve.
+              </p>
+              <ul class="proj__stats">
+                <li>
+                  <span class="proj__stat-v">0.6 → 11.2<span class="proj__stat-u">dB</span></span>
+                  <span class="proj__stat-k">SI-SDR, voices 3° apart</span>
+                </li>
+                <li>
+                  <span class="proj__stat-v">10.94<span class="proj__stat-u">dB</span></span>
+                  <span class="proj__stat-k">val SI-SDR, 6 speakers</span>
+                </li>
+                <li>
+                  <span class="proj__stat-v">16<span class="proj__stat-u">ch</span></span>
+                  <span class="proj__stat-k">4×4 mic array · complex U-Net</span>
+                </li>
+              </ul>
+              <p class="mono proj__stack">PYROOMACOUSTICS · SEPFORMER · ECAPA-TDNN</p>
+              <a class="proj__link" href="https://github.com/samarAli-7/SPEECH_EXTRACTION_PROJECT" target="_blank" rel="noopener">READ THE WRITE-UP <span aria-hidden="true">↗</span></a>
+
+              <p class="proj__note">
+                Early iteration. The final build goes live after the DARPA Triage Challenge, where
+                we’re competing as team UAS-DTU.
+              </p>
+            </div>
+            <div class="proj__art">
+              <figure class="board board--map">
+                <span class="tape tape--tl" aria-hidden="true"></span>
+                <span class="tape tape--tr" aria-hidden="true"></span>
+                <svg class="map" viewBox="0 0 400 300" role="img" aria-labelledby="map-title map-desc">
+                  <title id="map-title">Room map: sixteen microphones, five speakers, one chosen angle</title>
+                  <desc id="map-desc">A 4×4 microphone array steers at a target speaker. A second speaker sits eight degrees away inside the fallback cone, the case where direction alone cannot separate two voices.</desc>
+
+                  <!-- fallback cone -->
+                  <path class="map__cone" d="M120 232 L319.7 167.1 A210 210 0 0 0 285.5 102.7 Z" />
+
+                  <!-- beam arcs -->
+                  <g class="map__arc">
+                    <path d="M186.6 210.4 A70 70 0 0 0 175.2 188.9" />
+                    <path d="M243.6 191.8 A130 130 0 0 0 222.4 152" />
+                  </g>
+
+                  <!-- steering ray at theta -->
+                  <path class="map__ray" d="M120 232 L280 161" />
+
+                  <!-- the 8 degrees that separate target from neighbour -->
+                  <path class="map__gap" d="M272.6 164.1 A167 167 0 0 0 261.6 143.5" />
+
+                  <!-- other speakers -->
+                  <g class="map__spk--other">
+                    <circle cx="200" cy="82" r="7" />
+                    <circle cx="72" cy="85" r="7" />
+                    <circle cx="26" cy="140" r="7" />
+                    <circle cx="286" cy="284" r="7" />
+                  </g>
+
+                  <!-- neighbour inside the cone -->
+                  <circle class="map__spk--near" cx="256" cy="147" r="8" />
+                  <text class="map__label" x="238" y="130" text-anchor="middle">NEIGHBOUR · 8°</text>
+
+                  <!-- target -->
+                  <circle class="map__target-halo" cx="280" cy="161" r="18" />
+                  <circle class="map__spk--target" cx="280" cy="161" r="10" />
+                  <text class="map__label map__label--pink" x="302" y="158">TARGET</text>
+                  <text class="map__label map__label--pink" x="302" y="170">θ 24°</text>
+
+                  <!-- steering arrow -->
+                  <path class="map__steer" d="M120 208 L120 132" />
+                  <path class="map__steer-head" d="M116 140 120 132 124 140" />
+                  <text class="map__label map__label--ink" x="126" y="150">θ</text>
+
+                  <!-- 4x4 array -->
+                  <rect class="map__array-box" x="100" y="212" width="40" height="40" rx="3" />
+                  <g class="map__mic">
+                    <circle cx="104" cy="216" r="2.6" /><circle cx="115" cy="216" r="2.6" /><circle cx="126" cy="216" r="2.6" /><circle cx="137" cy="216" r="2.6" />
+                    <circle cx="104" cy="227" r="2.6" /><circle cx="115" cy="227" r="2.6" /><circle cx="126" cy="227" r="2.6" /><circle cx="137" cy="227" r="2.6" />
+                    <circle cx="104" cy="238" r="2.6" /><circle cx="115" cy="238" r="2.6" /><circle cx="126" cy="238" r="2.6" /><circle cx="137" cy="238" r="2.6" />
+                    <circle cx="104" cy="249" r="2.6" /><circle cx="115" cy="249" r="2.6" /><circle cx="126" cy="249" r="2.6" /><circle cx="137" cy="249" r="2.6" />
+                  </g>
+                  <text class="map__label map__label--ink" x="120" y="272" text-anchor="middle">16 MICS · 4×4 · 0.30 m</text>
+                </svg>
+                <figcaption class="hand">8° apart: direction can’t split these two, so the fallback does</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+
+        <article class="proj proj--yellow reveal" data-float="1.1">
+          <span class="proj__tab proj__tab--ink">✦ SHOWCASE 02</span>
+          <div class="proj__body">
+            <div class="proj__copy">
+              <p class="mono proj__meta"><span class="dot" aria-hidden="true"></span> WEARABLE HCI · ESP32 · MEDIAPIPE</p>
+              <h2 class="proj__title">The Glove Is the Mouse</h2>
+              <p class="proj__tagline">
+                A worn IMU glove steers the pointer by gyro and clicks by touch, while a webcam reads
+                ten hand gestures for volume, brightness, screenshots and screen lock. Two ways in,
+                one cursor, no keyboard in reach.
+              </p>
+              <ul class="proj__stats">
+                <li>
+                  <span class="proj__stat-v">10</span>
+                  <span class="proj__stat-k">gestures mapped to actions</span>
+                </li>
+                <li>
+                  <span class="proj__stat-v">2</span>
+                  <span class="proj__stat-k">transports: WiFi UDP, BLE fallback</span>
+                </li>
+                <li>
+                  <span class="proj__stat-v">8</span>
+                  <span class="proj__stat-k">IMU channels into a tremor model</span>
+                </li>
+              </ul>
+              <p class="mono proj__stack">ESP32 · ARDUINO · MEDIAPIPE · PYAUTOGUI</p>
+              <a class="proj__link" href="https://github.com/samarAli-7/OmniControl" target="_blank" rel="noopener">READ THE WRITE-UP <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="proj__art">
+              <figure class="board board--flow">
+                <span class="tape tape--tl" aria-hidden="true"></span>
+                <span class="tape tape--br" aria-hidden="true"></span>
+                <svg class="flow" viewBox="0 0 400 248" role="img" aria-labelledby="flow-title flow-desc">
+                  <title id="flow-title">Signal diagram: a glove and a webcam feeding one cursor</title>
+                  <desc id="flow-desc">An IMU glove with touch sensors sends serial data to an ESP32, which forwards it to the computer over WiFi UDP and falls back to Bluetooth HID. A separate webcam channel tracks hand landmarks and maps ten gestures to system actions. Both channels end at the same machine.</desc>
+
+                  <!-- top row: the glove -->
+                  <rect class="flow__box" x="14" y="40" width="104" height="56" rx="4" />
+                  <text class="flow__label" x="66" y="63" text-anchor="middle">GLOVE</text>
+                  <text class="flow__label flow__label--small" x="66" y="79" text-anchor="middle">IMU + TOUCH</text>
+
+                  <rect class="flow__box" x="150" y="40" width="84" height="56" rx="4" />
+                  <text class="flow__label" x="192" y="63" text-anchor="middle">ESP32</text>
+                  <text class="flow__label flow__label--small" x="192" y="79" text-anchor="middle">BRIDGE</text>
+
+                  <rect class="flow__box flow__box--alt" x="290" y="40" width="96" height="56" rx="4" />
+                  <text class="flow__label" x="338" y="63" text-anchor="middle">CURSOR</text>
+                  <text class="flow__label flow__label--small" x="338" y="79" text-anchor="middle">UDP :5000</text>
+
+                  <path class="flow__line" d="M118 68 H146" />
+                  <path class="flow__head" d="M146 64 L152 68 L146 72 Z" />
+
+                  <path class="flow__line" d="M234 56 H282" />
+                  <path class="flow__head" d="M282 52 L288 56 L282 60 Z" />
+                  <text class="flow__label flow__label--small" x="259" y="48" text-anchor="middle">UDP</text>
+
+                  <path class="flow__line flow__line--dashed flow__line--pink" d="M234 82 H282" />
+                  <path class="flow__head flow__head--pink" d="M282 78 L288 82 L282 86 Z" />
+                  <text class="flow__label flow__label--small" x="259" y="96" text-anchor="middle">BLE</text>
+
+                  <!-- bottom row: the camera -->
+                  <rect class="flow__box" x="14" y="176" width="104" height="56" rx="4" />
+                  <text class="flow__label" x="66" y="199" text-anchor="middle">WEBCAM</text>
+                  <text class="flow__label flow__label--small" x="66" y="215" text-anchor="middle">MEDIAPIPE</text>
+
+                  <rect class="flow__box" x="150" y="176" width="84" height="56" rx="4" />
+                  <text class="flow__label" x="192" y="199" text-anchor="middle">GESTURE</text>
+                  <text class="flow__label flow__label--small" x="192" y="215" text-anchor="middle">10 MAPS</text>
+
+                  <rect class="flow__box flow__box--alt" x="290" y="176" width="96" height="56" rx="4" />
+                  <text class="flow__label" x="338" y="199" text-anchor="middle">SYSTEM</text>
+                  <text class="flow__label flow__label--small" x="338" y="215" text-anchor="middle">VOL · LOCK</text>
+
+                  <path class="flow__line" d="M118 204 H146" />
+                  <path class="flow__head" d="M146 200 L152 204 L146 208 Z" />
+
+                  <path class="flow__line" d="M234 204 H282" />
+                  <path class="flow__head" d="M282 200 L288 204 L282 208 Z" />
+                  <text class="flow__label flow__label--small" x="259" y="196" text-anchor="middle">ACTION</text>
+
+                  <!-- both channels end at the same machine -->
+                  <path class="flow__line flow__line--dashed" d="M388 96 V176" />
+                </svg>
+                <figcaption class="hand">glove and camera, one pointer</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+
+        <article class="proj proj--blue reveal" data-float="1.1">
+          <span class="proj__tab proj__tab--yellow">✦ SHOWCASE 03</span>
+          <div class="proj__body">
+            <div class="proj__copy">
+              <p class="mono proj__meta"><span class="dot" aria-hidden="true"></span> RAG · VOICE · SIMULATION</p>
+              <h2 class="proj__title">Isaac Newton,<br />On Call</h2>
+              <p class="proj__tagline">
+                A digital twin grounded in the Principia and the Opticks: it answers in seventeenth-century
+                English through a local voice loop, argues back if you side with Hooke, and launches a
+                live simulation when a question really needs a diagram.
+              </p>
+              <ul class="proj__stats">
+                <li>
+                  <span class="proj__stat-v">4</span>
+                  <span class="proj__stat-k">simulations it can launch</span>
+                </li>
+                <li>
+                  <span class="proj__stat-v">2</span>
+                  <span class="proj__stat-k">personas: Newton and Hooke</span>
+                </li>
+                <li>
+                  <span class="proj__stat-v">RAG</span>
+                  <span class="proj__stat-k">Chroma over Principia + Opticks</span>
+                </li>
+              </ul>
+              <p class="mono proj__stack">GEMINI 2.5 FLASH · CHROMA · WHISPER · EDGE-TTS</p>
+              <a class="proj__link" href="https://github.com/samarAli-7/DigitalTwin" target="_blank" rel="noopener">READ THE WRITE-UP <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="proj__art">
+              <figure class="board board--spec">
+                <span class="tape tape--tl" aria-hidden="true"></span>
+                <span class="tape tape--tr" aria-hidden="true"></span>
+                <svg class="spec" viewBox="0 0 400 260" role="img" aria-labelledby="spec-title spec-desc">
+                  <title id="spec-title">Newton's two demonstrations drawn as sketches: an orbit and a prism</title>
+                  <desc id="spec-desc">A dashed ellipse with the sun at one focus and a planet on the path, labelled Principia. Below it a triangular prism splits a single beam into a fan of six coloured rays, labelled Opticks.</desc>
+
+                  <!-- Principia: an orbit -->
+                  <ellipse class="spec__orbit" cx="285" cy="76" rx="88" ry="46" />
+                  <circle class="spec__sun" cx="210" cy="76" r="9" />
+                  <circle class="spec__planet" cx="352" cy="46" r="5" />
+                  <text class="spec__formula" x="210" y="112" text-anchor="middle">∝ 1/r²</text>
+                  <text class="spec__label" x="285" y="142" text-anchor="middle">PRINCIPIA</text>
+
+                  <!-- Opticks: a prism splitting a beam -->
+                  <path class="spec__prism" d="M34 208 L118 208 L76 150 Z" />
+                  <path class="spec__beam" d="M2 184 L44 193" />
+                  <path class="spec__beam spec__beam--inside" d="M44 193 L109 196" />
+                  <path class="spec__ray" stroke="#e04a25" d="M109 196 L330 150" />
+                  <path class="spec__ray" stroke="#f08a24" d="M109 196 L338 168" />
+                  <path class="spec__ray" stroke="#f7c948" d="M109 196 L342 186" />
+                  <path class="spec__ray" stroke="#149d58" d="M109 196 L338 206" />
+                  <path class="spec__ray" stroke="#2450e0" d="M109 196 L330 224" />
+                  <path class="spec__ray" stroke="#8b3fd6" d="M109 196 L318 240" />
+                  <text class="spec__label" x="76" y="234" text-anchor="middle">OPTICKS</text>
+                </svg>
+                <figcaption class="hand">ask it something, it draws the answer</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <a class="more-showcases reveal" href="https://github.com/samarAli-7" target="_blank" rel="noopener noreferrer">
+        <span class="more-showcases__title">MORE SHOWCASES</span>
+        <span class="more-showcases__copy">Explore more projects on GitHub</span>
+        <span class="more-showcases__arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <section class="now-section reveal" aria-labelledby="now-title">
+        <div class="now-section__heading">
+          <p class="mono now-section__eyebrow"><span class="dot" aria-hidden="true"></span> CURRENTLY IN THE FIELD</p>
+          <h2 id="now-title" class="now-section__title">What I’m doing now</h2>
+          <p class="now-section__copy">
+            Building with team UAS-DTU for the DARPA Triage Challenge, autonomous systems that
+            search, sense, and help responders find people in dangerous places.
+          </p>
+          <a class="now-section__link" href="https://uasdtu.com/" target="_blank" rel="noopener noreferrer">VISIT UAS-DTU <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="now-section__gallery">
+          <figure class="now-photo now-photo--wide">
+            <img src="assets/dtc-team-roboscout.jpg" alt="A team operating a robot during the DARPA Triage Challenge." loading="lazy" decoding="async" />
+            <figcaption class="hand">robots in the field</figcaption>
+          </figure>
+          <figure class="now-photo">
+            <img src="assets/dtc-autonomous-systems.jpg" alt="Autonomous systems being prepared for the DARPA Triage Challenge." loading="lazy" decoding="async" />
+            <figcaption class="hand">systems ready to run</figcaption>
+          </figure>
+          <figure class="now-photo">
+            <img src="assets/dtc-nerve-center.jpg" alt="Operators monitoring live feeds at the DARPA Triage Challenge." loading="lazy" decoding="async" />
+            <figcaption class="hand">mission control</figcaption>
+          </figure>
+          <figure class="now-photo">
+            <img src="assets/dtc-drone-swarm.jpg" alt="A coordinated drone swarm during the DARPA Triage Challenge." loading="lazy" decoding="async" />
+            <figcaption class="hand">air support</figcaption>
+          </figure>
+          <figure class="now-photo">
+            <img src="assets/dtc-night-operations.jpg" alt="Night operations at the DARPA Triage Challenge." loading="lazy" decoding="async" />
+            <figcaption class="hand">night operations</figcaption>
+          </figure>
+          <figure class="now-photo now-photo--rover">
+            <img src="assets/dtc-rover.jpg" alt="UAS-DTU rover equipped with cameras and sensors in the field." loading="lazy" decoding="async" />
+            <figcaption class="hand">our rover, in the field</figcaption>
+          </figure>
+        </div>
+        <p class="now-section__credit mono">IMAGES: DARPA / PAUL FLACKS · DARPA TRIAGE CHALLENGE</p>
+      </section>
+
+      <!-- ============ CERTIFICATIONS ============ -->
+      <section class="certifications" id="certifications" aria-labelledby="certifications-title">
+        <div class="certifications__heading">
+          <span class="hand certifications__label reveal">proof of practice</span>
+          <h2 id="certifications-title" class="certifications__title reveal">selected certifications</h2>
+          <p class="certifications__copy reveal">
+            A few credentials that map directly to the machine-learning, deep-learning, and applied
+            systems work shown above.
+          </p>
+        </div>
+        <div class="certifications__grid">
+          <a class="cert-card cert-card--yellow reveal" href="https://github.com/samarAli-7/my_certifications/blob/main/Coursera_ML_spec_course1.pdf" target="_blank" rel="noopener noreferrer">
+            <span class="cert-card__provider">COURSERA · STANFORD</span>
+            <strong>Machine Learning Specialization</strong>
+            <span class="cert-card__detail">Foundations, supervised learning, and practical ML</span>
+            <span class="cert-card__arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="cert-card cert-card--blue reveal" href="https://github.com/samarAli-7/my_certifications/blob/main/complete_DL_specialization_coursera.pdf" target="_blank" rel="noopener noreferrer">
+            <span class="cert-card__provider">COURSERA · DEEPLEARNING.AI</span>
+            <strong>Deep Learning Specialization</strong>
+            <span class="cert-card__detail">Neural networks, optimization, and modern architectures</span>
+            <span class="cert-card__arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="cert-card cert-card--pink reveal" href="https://github.com/samarAli-7/my_certifications/blob/main/convolutional_neural_networks.pdf" target="_blank" rel="noopener noreferrer">
+            <span class="cert-card__provider">DEEPLEARNING.AI</span>
+            <strong>Convolutional Neural Networks</strong>
+            <span class="cert-card__detail">Computer vision and visual representation learning</span>
+            <span class="cert-card__arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="cert-card cert-card--mint reveal" href="https://github.com/samarAli-7/my_certifications/blob/main/rnn_lstm_gru_transformers.pdf" target="_blank" rel="noopener noreferrer">
+            <span class="cert-card__provider">DEEPLEARNING.AI</span>
+            <strong>Sequence Models</strong>
+            <span class="cert-card__detail">RNNs, LSTMs, GRUs, and Transformers</span>
+            <span class="cert-card__arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="cert-card cert-card--cream reveal" href="https://github.com/samarAli-7/my_certifications/blob/main/Structuring_ML_DL_project_metrics_evaluation.pdf" target="_blank" rel="noopener noreferrer">
+            <span class="cert-card__provider">DEEPLEARNING.AI</span>
+            <strong>Structuring ML Projects</strong>
+            <span class="cert-card__detail">Metrics, evaluation, and reliable project decisions</span>
+            <span class="cert-card__arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+
+      <a class="more-showcases reveal" href="https://github.com/samarAli-7/my_certifications" target="_blank" rel="noopener noreferrer">
+        <span class="more-showcases__title">ALL CERTIFICATIONS</span>
+        <span class="more-showcases__copy">View the complete certification repository</span>
+        <span class="more-showcases__arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="contact" id="contact">
+        <span class="hand contact__label reveal">say hello</span>
+        <h2 class="hand boxed contact__title reveal">let’s talk</h2>
+
+        <p class="hand contact__lede reveal" data-float="0.8">
+          Have something in mind, or just want to compare notes? I read everything and reply to most
+          things within a day or two.
+        </p>
+
+        <form class="contact__form reveal" data-contact-form action="https://formspree.io/f/xojagjrz" method="POST">
+          <div class="contact__field">
+            <label for="contact-name">Name</label>
+            <input id="contact-name" name="name" type="text" autocomplete="name" placeholder="Your full name" required />
+          </div>
+          <div class="contact__field">
+            <label for="contact-email">Email</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+          </div>
+          <div class="contact__field">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="4" placeholder="Tell me what you want to build, collaborate on, or ask about..." required></textarea>
+          </div>
+          <button class="contact__submit" type="submit">SEND MESSAGE</button>
+          <p class="contact__status" data-contact-status role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="contact__actions reveal" data-float="0.85">
+          <a class="contact__mail" href="mailto:samarali.01491625@gmail.com">samarali.01491625@gmail.com</a>
+          <button class="copybtn" type="button" data-copy-email data-email="samarali.01491625@gmail.com" aria-label="Copy email address">
+            <svg class="icon icon--copy" aria-hidden="true"><use href="#i-copy"></use></svg>
+            <svg class="icon icon--done" aria-hidden="true"><use href="#i-check"></use></svg>
+            <span class="copybtn__label">Copy</span>
+          </button>
+        </div>
+
+        <p class="mono contact__meta reveal" data-float="0.7"><span class="dot" aria-hidden="true"></span> DELHI, INDIA · OPEN FOR WORK</p>
+      </section>
+    </main>
+
+    <footer class="sitefoot">
+      <span class="hand">© <b id="year">2026</b> Samar Ali</span>
+      <span class="mono sitefoot__mid">NO TEMPLATES · NO FILLER</span>
+      <button class="sitefoot__top" type="button" data-top>
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"></use></svg>
+        <span>BACK TO TOP</span>
+      </button>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
